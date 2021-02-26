@@ -6,7 +6,7 @@ namespace BankApplication
     {
         static void Main(string[] args)
         {
-          var account = new BankAccount("sairam", 10000);
+          var account = new BankAccount("ShamiliPriya");
           Console.WriteLine("Wellcome SANA SMALL FINANCE BANK PVT.Ltd");
           Console.WriteLine($"Account No: {account.Number}");
           Console.WriteLine($"Owner of the Account: {account.Owner}");
