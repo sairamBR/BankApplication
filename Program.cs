@@ -19,6 +19,8 @@ namespace BankApplication
           Console.WriteLine("Balance After Deposit on " + DateTime.Now + "       "+ account.Balance);
           Console.WriteLine("-------------------------------------------------------------------------");
           Console.WriteLine("Current Balance                                    " +account.Balance);
+
+          Console.WriteLine(account.GetAccountHistory());
         }
     }
 }
